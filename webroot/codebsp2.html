@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>codeBsp2</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <script type="text/javascript">
+        function fib(n) {
+            if (n == 0)
+                return 0;
+            else
+                if (n == 1)
+                    return 1;
+                else
+                    return (fib(n - 1) + fib(n - 2));
+        }
+
+        document.writeln("fib(3) =" + fib(3)+ "<br>");
+        document.writeln("fib(8) =" + fib(8)+ "<br>");
+
+    </script>
+</body>
+
+</html>

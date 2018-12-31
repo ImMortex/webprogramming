@@ -1,0 +1,29 @@
+<html>
+
+<head>
+    <title>codebsp6</title>
+    <meta charset="utf-8">
+</head>
+<script type="text/javascript">
+    function show(a) {
+        document.writeln("a: " + a); document.writeln("<br>");
+        document.writeln("a[0]: " + a[0]); document.writeln("<br>");
+        document.writeln("a[1]: " + a[1]); document.writeln("<br>");
+        document.writeln("a[2]: " + a[2]); document.writeln("<br>");
+        document.writeln("a[3]: " + a[3]); document.writeln("<br>");
+        document.writeln("a[4]: " + a[4]); document.writeln("<br>");
+        document.writeln("a[5]: " + a[5]); document.writeln("<br>");
+        document.writeln("<hr>");
+    }
+
+    var a = new Array(1, 2, 3, 4, 5, 6);
+    show(a)
+    a[2] = "drei"; a[3] = 4.01;
+    show(a);
+    a = { "Vorname": "Christian", "Nachname": "Gurski", "Strasse": "Lohmannstraße.", "Nr": 23, "Ort": "Köthen", "PLZ": "06366" };
+    document.writeln(a.Vorname + " " + a.Nachname + "<br>");
+    document.writeln(a.Strasse + " " + a.Nr + "<br>");
+    document.writeln(a.PLZ + " " + a.Ort + "<br>");
+</script>
+
+</html>

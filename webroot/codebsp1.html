@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Übung Scripting</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <img src="blume.jpg" width="100">
+    <h1>
+        <!---Script-Markup (Kommentar)-->
+        <script type="text/javascript">
+            document.write("Hello World!");</script>
+    </h1>
+    <!--Externe Datei-->
+    <h2>
+        <script type="text/javascript" src="hello.js"></script>
+    </h2>
+    <!--URI-->
+    <h2><a href="javascript:alert('Hallo');"><u>Hallo sagen</u></a></h2>
+    <!--Eventhandler-->
+    <h2 onClick="confirm('Hallo');">
+        hier klicken...
+    </h2>
+</body>
+
+</html>

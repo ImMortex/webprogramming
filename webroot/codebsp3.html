@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>codebsp3</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <script type="text/javascript">
+        function fib(n) {
+            if (n == 0)
+                return 0;
+            else
+                if (n == 1)
+                    return 1;
+                else
+                    return (fib(n - 1) + fib(n - 2));
+        }
+        eing = prompt("Funktionsparameter", "0");
+        document.writeln("fib(" + eing + ") = " + fib(eing) + "<br>");  
+    </script>
+
+</body>
+
+</html>
